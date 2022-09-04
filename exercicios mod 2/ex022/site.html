@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color:  rgb(71 78 76 / 69%);
+            margin: 0px;
+        }
+        header{
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+        }  
+        nav{
+            background-color: lightslategray;
+            padding: 3px;
+            box-shadow: 5px 1px 7px rgba(0, 0, 0, 0.418);
+        } 
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        } 
+        nav > a:hover{
+            color: tomato;
+            text-transform: uppercase; 
+            
+        }
+
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 30px 0px 30px;
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center; 
+            padding: 4px;    
+                      
+
+        }
+            footer > p {
+                margin: 0px;
+            }
+
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: lightpink;
+
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu teste de site</h1>
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Contato</a>
+            <a href="#">Serviços</a>
+            <a href="#">Outros</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="Notícias">
+
+        </section>
+        <article>
+            <h2>Noticia sobre o assunto</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quibusdam voluptatem nulla unde veniam, iure est, ducimus debitis mollitia et voluptatum hic incidunt ab, ratione alias eos nostrum repellat sit?</p>
+            <aside>
+                <p>Escrito por lorem.</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Marcos TM</p>
+    </footer>    
+    <div id="bola"></div>
+
+</body>
+</html>
